@@ -1,4 +1,4 @@
-# NCDC Covid -tracker
+# NCDC Covid tracker
 Serverless web scraper for real-time covid-19 data in Nigeria. 
 
 - Data gotten from [NCDC's](https://covid19.ncdc.gov.ng/) official website
