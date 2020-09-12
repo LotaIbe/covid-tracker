@@ -1,4 +1,4 @@
-# Covid-tracker
+# NCDC Covid -tracker
 Serverless web scraper for real-time covid-19 data in Nigeria. 
 
 - Data gotten from [NCDC's](https://covid19.ncdc.gov.ng/) official website
@@ -24,5 +24,5 @@ python3 naijacovidscraper.py
 3. Create a new AWS Lambda and upload zipped python script (with dependencies)
 4. Create a Lambda function (see lambda_function.py) and add layer in Step 4.
 5. Create new Event/rule using **AWS CloudWatch**
- >>> cron expression for 12 hourly schedule: `0 */12 * * ? *`
+ > cron expression for 12 hourly schedule: `0 */12 * * ? *`
  
